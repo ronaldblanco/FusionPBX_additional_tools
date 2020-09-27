@@ -130,121 +130,121 @@ require_once "resources/header.php";
 	</h8>
 	
 	</br>
-	<img src="/zzzdatabase_query/Screenshot_2.png" alt="FusionPBX tables" width="500" height="900"></br>
-	<img src="/zzzdatabase_query/Screenshot_3.png" alt="FusionPBX tables" width="500" height="500">
+	
+</br>
+List of relations</br>
+Schema | Name | Type | Owner</br>
+--------+---------------------------------+-------+-----------</br>
+public | v_access_control_nodes | table | fusionpbx</br>
+public | v_access_controls | table | fusionpbx</br>
+public | v_bridges | table | fusionpbx</br>
+public | v_call_block | table | fusionpbx</br>
+public | v_call_broadcasts | table | fusionpbx</br>
+public | v_call_center_agents | table | fusionpbx</br>
+public | v_call_center_queues | table | fusionpbx</br>
+public | v_call_center_tiers | table | fusionpbx</br>
+public | v_call_flows | table | fusionpbx</br>
+public | v_call_recordings | table | fusionpbx</br>
+public | v_conference_centers | table | fusionpbx</br>
+public | v_conference_control_details | table | fusionpbx</br>
+public | v_conference_controls | table | fusionpbx</br>
+public | v_conference_profile_params | table | fusionpbx</br>
+public | v_conference_profiles | table | fusionpbx</br>
+public | v_conference_rooms | table | fusionpbx</br>
+public | v_conference_session_details | table | fusionpbx</br>
+public | v_conference_sessions | table | fusionpbx</br>
+public | v_conference_users | table | fusionpbx</br>
+public | v_conferences | table | fusionpbx</br>
+public | v_contact_addresses | table | fusionpbx</br>
+public | v_contact_attachments | table | fusionpbx</br>
+public | v_contact_emails | table | fusionpbx</br>
+public | v_contact_groups | table | fusionpbx</br>
+public | v_contact_notes | table | fusionpbx</br>
+public | v_contact_phones | table | fusionpbx</br>
+public | v_contact_relations | table | fusionpbx</br>
+public | v_contact_settings | table | fusionpbx</br>
+public | v_contact_times | table | fusionpbx</br>
+public | v_contact_urls | table | fusionpbx</br>
+public | v_contact_users | table | fusionpbx</br>
+public | v_contacts | table | fusionpbx</br>
+public | v_countries | table | fusionpbx</br>
+public | v_database_transactions | table | fusionpbx</br>
+public | v_databases | table | fusionpbx</br>
+public | v_default_settings | table | fusionpbx</br>
+public | v_destinations | table | fusionpbx</br>
+public | v_device_keys | table | fusionpbx</br>
+public | v_device_lines | table | fusionpbx</br>
+public | v_device_profile_keys | table | fusionpbx</br>
+public | v_device_profile_settings | table | fusionpbx</br>
+public | v_device_profiles | table | fusionpbx</br>
+public | v_device_settings | table | fusionpbx</br>
+public | v_device_vendor_function_groups | table | fusionpbx</br>
+public | v_device_vendor_functions | table | fusionpbx</br>
+public | v_device_vendors | table | fusionpbx</br>
+public | v_devices | table | fusionpbx</br>
+public | v_dialplan_details | table | fusionpbx</br>
+public | v_dialplans | table | fusionpbx</br>
+public | v_domain_settings | table | fusionpbx</br>
+public | v_domains | table | fusionpbx</br>
+public | v_email_logs | table | fusionpbx</br>
+public | v_email_templates | table | fusionpbx</br>
+public | v_extension_users | table | fusionpbx</br>
+public | v_extensions | table | fusionpbx</br>
+public | v_fax | table | fusionpbx</br>
+public | v_fax_files | table | fusionpbx</br>
+public | v_fax_logs | table | fusionpbx</br>
+public | v_fax_tasks | table | fusionpbx</br>
+public | v_fax_users | table | fusionpbx</br>
+public | v_follow_me | table | fusionpbx</br>
+public | v_follow_me_destinations | table | fusionpbx</br>
+public | v_gateways | table | fusionpbx</br>
+public | v_group_permissions | table | fusionpbx</br>
+public | v_groups | table | fusionpbx</br>
+public | v_ivr_menu_options | table | fusionpbx</br>
+public | v_ivr_menus | table | fusionpbx</br>
+public | v_languages | table | fusionpbx</br>
+public | v_meeting_users | table | fusionpbx</br>
+public | v_meetings | table | fusionpbx</br>
+public | v_menu_item_groups | table | fusionpbx</br>
+public | v_menu_items | table | fusionpbx</br>
+public | v_menu_languages | table | fusionpbx</br>
+public | v_menus | table | fusionpbx</br>
+public | v_message_media | table | fusionpbx</br>
+public | v_messages | table | fusionpbx</br>
+public | v_modules | table | fusionpbx</br>
+public | v_music_on_hold | table | fusionpbx</br>
+public | v_notifications | table | fusionpbx</br>
+public | v_number_translation_details | table | fusionpbx</br>
+public | v_number_translations | table | fusionpbx</br>
+public | v_permissions | table | fusionpbx</br>
+public | v_phrase_details | table | fusionpbx</br>
+public | v_phrases | table | fusionpbx</br>
+public | v_pin_numbers | table | fusionpbx</br>
+public | v_recordings | table | fusionpbx</br>
+public | v_ring_group_destinations | table | fusionpbx</br>
+public | v_ring_group_users | table | fusionpbx</br>
+public | v_ring_groups | table | fusionpbx</br>
+public | v_settings | table | fusionpbx</br>
+public | v_sip_profile_domains | table | fusionpbx</br>
+public | v_sip_profile_settings | table | fusionpbx</br>
+public | v_sip_profiles | table | fusionpbx</br>
+public | v_sms_broadcast | table | fusionpbx</br>
+public | v_sms_destinations | table | fusionpbx</br>
+public | v_sms_messages | table | fusionpbx</br>
+public | v_software | table | fusionpbx</br>
+public | v_streams | table | fusionpbx</br>
+public | v_user_groups | table | fusionpbx</br>
+public | v_user_settings | table | fusionpbx</br>
+public | v_users | table | fusionpbx</br>
+public | v_vars | table | fusionpbx</br>
+public | v_voicemail_destinations | table | fusionpbx</br>
+public | v_voicemail_greetings | table | fusionpbx</br>
+public | v_voicemail_messages | table | fusionpbx</br>
+public | v_voicemail_options | table | fusionpbx</br>
+public | v_voicemails | table | fusionpbx</br>
+public | v_xml_cdr | table | fusionpbx</br>
+</br>	
 
-
-	 List of relations
- Schema |              Name               | Type  |   Owner
---------+---------------------------------+-------+-----------
- public | v_access_control_nodes          | table | fusionpbx
- public | v_access_controls               | table | fusionpbx
- public | v_bridges                       | table | fusionpbx
- public | v_call_block                    | table | fusionpbx
- public | v_call_broadcasts               | table | fusionpbx
- public | v_call_center_agents            | table | fusionpbx
- public | v_call_center_queues            | table | fusionpbx
- public | v_call_center_tiers             | table | fusionpbx
- public | v_call_flows                    | table | fusionpbx
- public | v_call_recordings               | table | fusionpbx
- public | v_conference_centers            | table | fusionpbx
- public | v_conference_control_details    | table | fusionpbx
- public | v_conference_controls           | table | fusionpbx
- public | v_conference_profile_params     | table | fusionpbx
- public | v_conference_profiles           | table | fusionpbx
- public | v_conference_rooms              | table | fusionpbx
- public | v_conference_session_details    | table | fusionpbx
- public | v_conference_sessions           | table | fusionpbx
- public | v_conference_users              | table | fusionpbx
- public | v_conferences                   | table | fusionpbx
- public | v_contact_addresses             | table | fusionpbx
- public | v_contact_attachments           | table | fusionpbx
- public | v_contact_emails                | table | fusionpbx
- public | v_contact_groups                | table | fusionpbx
- public | v_contact_notes                 | table | fusionpbx
- public | v_contact_phones                | table | fusionpbx
- public | v_contact_relations             | table | fusionpbx
- public | v_contact_settings              | table | fusionpbx
- public | v_contact_times                 | table | fusionpbx
- public | v_contact_urls                  | table | fusionpbx
- public | v_contact_users                 | table | fusionpbx
- public | v_contacts                      | table | fusionpbx
- public | v_countries                     | table | fusionpbx
- public | v_database_transactions         | table | fusionpbx
- public | v_databases                     | table | fusionpbx
- public | v_default_settings              | table | fusionpbx
- public | v_destinations                  | table | fusionpbx
- public | v_device_keys                   | table | fusionpbx
- public | v_device_lines                  | table | fusionpbx
- public | v_device_profile_keys           | table | fusionpbx
- public | v_device_profile_settings       | table | fusionpbx
- public | v_device_profiles               | table | fusionpbx
- public | v_device_settings               | table | fusionpbx
- public | v_device_vendor_function_groups | table | fusionpbx
- public | v_device_vendor_functions       | table | fusionpbx
- public | v_device_vendors                | table | fusionpbx
- public | v_devices                       | table | fusionpbx
- public | v_dialplan_details              | table | fusionpbx
- public | v_dialplans                     | table | fusionpbx
- public | v_domain_settings               | table | fusionpbx
- public | v_domains                       | table | fusionpbx
- public | v_email_logs                    | table | fusionpbx
- public | v_email_templates               | table | fusionpbx
- public | v_extension_users               | table | fusionpbx
- public | v_extensions                    | table | fusionpbx
- public | v_fax                           | table | fusionpbx
- public | v_fax_files                     | table | fusionpbx
- public | v_fax_logs                      | table | fusionpbx
- public | v_fax_tasks                     | table | fusionpbx
- public | v_fax_users                     | table | fusionpbx
- public | v_follow_me                     | table | fusionpbx
- public | v_follow_me_destinations        | table | fusionpbx
- public | v_gateways                      | table | fusionpbx
- public | v_group_permissions             | table | fusionpbx
- public | v_groups                        | table | fusionpbx
- public | v_ivr_menu_options              | table | fusionpbx
- public | v_ivr_menus                     | table | fusionpbx
- public | v_languages                     | table | fusionpbx
- public | v_meeting_users                 | table | fusionpbx
- public | v_meetings                      | table | fusionpbx
- public | v_menu_item_groups              | table | fusionpbx
- public | v_menu_items                    | table | fusionpbx
- public | v_menu_languages                | table | fusionpbx
- public | v_menus                         | table | fusionpbx
- public | v_message_media                 | table | fusionpbx
- public | v_messages                      | table | fusionpbx
- public | v_modules                       | table | fusionpbx
- public | v_music_on_hold                 | table | fusionpbx
- public | v_notifications                 | table | fusionpbx
- public | v_number_translation_details    | table | fusionpbx
- public | v_number_translations           | table | fusionpbx
- public | v_permissions                   | table | fusionpbx
- public | v_phrase_details                | table | fusionpbx
- public | v_phrases                       | table | fusionpbx
- public | v_pin_numbers                   | table | fusionpbx
- public | v_recordings                    | table | fusionpbx
- public | v_ring_group_destinations       | table | fusionpbx
- public | v_ring_group_users              | table | fusionpbx
- public | v_ring_groups                   | table | fusionpbx
- public | v_settings                      | table | fusionpbx
- public | v_sip_profile_domains           | table | fusionpbx
- public | v_sip_profile_settings          | table | fusionpbx
- public | v_sip_profiles                  | table | fusionpbx
- public | v_sms_broadcast                 | table | fusionpbx
- public | v_sms_destinations              | table | fusionpbx
- public | v_sms_messages                  | table | fusionpbx
- public | v_software                      | table | fusionpbx
- public | v_streams                       | table | fusionpbx
- public | v_user_groups                   | table | fusionpbx
- public | v_user_settings                 | table | fusionpbx
- public | v_users                         | table | fusionpbx
- public | v_vars                          | table | fusionpbx
- public | v_voicemail_destinations        | table | fusionpbx
- public | v_voicemail_greetings           | table | fusionpbx
- public | v_voicemail_messages            | table | fusionpbx
- public | v_voicemail_options             | table | fusionpbx
- public | v_voicemails                    | table | fusionpbx
- public | v_xml_cdr                       | table | fusionpbx
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
