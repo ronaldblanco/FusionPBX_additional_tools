@@ -1281,7 +1281,7 @@ require_once "resources/header.php";
 
 		<div class="row p-3">
 			<div class="col-md-3">
-				<h1><a href="http://github.com/hamidsamak/pheditor" target="_blank" title="Pheditor <?= VERSION ?>">Pheditor</a></h1>
+				<h1><a href="http://github.com/hamidsamak/pheditor" target="_blank" title="Pheditor <?= VERSION ?>">Pheditor: /var/log/</a></h1>
 			</div>
 			<div class="col-md-9">
 				<div class="float-left">
