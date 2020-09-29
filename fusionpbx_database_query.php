@@ -68,13 +68,13 @@ require_once "resources/header.php";
 	<h4>Last Query Executed: <?php echo $default;?></h4>
 	</br>
 	<form action="sjdhashbvbq78vew8vbe02jenlvewbvdjvwcheck_database.php" class='inline' method="post" styles>
-						<div class="form-group">
-							<label>SQL Query:</label>
-							<textarea class="form-control" name="query" placeholder="Query" value="<?php echo $default; ?>" rows="5" style="width: 100%"></textarea>
-							<small id="SMS" class="form-text text-muted">Query to execute!</small>
-						</div>
-        				<input type="submit" class="btn btn-primary" value="Execute">
-    				</form>
+			<div class="form-group">
+				<label>SQL Query:</label>
+				<textarea class="form-control" name="query" placeholder="Query" value="<?php echo $default; ?>" rows="5" style="width: 400%"><?php echo $default; ?></textarea>
+				<small id="query" class="form-text text-muted">Query to execute!</small>
+			</div>
+        	<input type="submit" class="btn btn-primary" value="Execute">
+    	</form>
 		</br>
 		
 		<?php 
